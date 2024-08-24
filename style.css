@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    max-width:450px ;
+    width: 100%;
+    border: 2px solid black;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+   border-radius: 10px;
+
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin: 10px;
+    background-color:rgba(245, 13, 13, 0.637);
+    border: none;
+   margin-left: 25px;
+}
+.two{
+    height: 50px;
+    width: 50px;
+    border: 2px solid orange;
+    position: relative;
+    border-radius: 50%;
+    left: 35px;
+    background-color: rgba(240, 175, 55, 0.649);
+    border: none;
+}
+.name{
+    margin: 5px;
+    margin-left:40px ;
+    font-size: 20px;
+    color: white;
+}
+
+  
+
+.details{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: -12px;
+    color: white;
+
+    
+}
+.details li{
+    list-style: none;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+.details .space{
+    letter-spacing: 2px;
+}
+.details .name{
+    padding-top: 20px;
+    margin-left: 2px;
+}
+.valid{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    color: white;
+   
+    margin-left: 50px;
+
+}
+
+.valid li{
+    list-style: none;
+}
